@@ -6,13 +6,13 @@ for(i = 0; i < 16; i++){
     container.appendChild(column)
 }
 }
-const col = container.querySelector('column')
+const column = container.querySelector('column')
 let cols = container.childNodes;
 
-function fillNodes(){
+function fillCells(){
     for(i = 0; i < 16; i++) {
-    const node = document.createElement('node');
-    node.classname = 'node';
-    col.appendChild(node)
+    const cell = document.createElement('cell');
+    cell.className = 'cell';
+    container.appendChild(cell)
 }
 }
