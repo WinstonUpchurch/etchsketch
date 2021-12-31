@@ -1,19 +1,18 @@
 const container = document.getElementById('container');
-
+function gwid() {
 for(i = 0; i < 16; i++){
-    const column = document.createElement(column);
-    column.className = 'column'
-    document.container.appendChild(column)
+    const column = document.createElement('column');
+    column.className = 'column';
+    container.appendChild(column)
 }
+}
+const col = container.querySelector('column')
+let cols = container.childNodes;
 
-function makeGrid(n){
-    const columns = container.querySelectorAll(column);
-    const columnCount = columns.length;
-    function fillNodes(columnCount){
-        for(i = 0; i < columnCount; i++)
-        node = document.createElement(node);
-        node.classname = 'node';
-        container.getElementsByClassName('column').appendchild(node)
-    }
-    columns.forEach(fillNodes())
+function fillNodes(){
+    for(i = 0; i < 16; i++) {
+    const node = document.createElement('node');
+    node.classname = 'node';
+    col.appendChild(node)
+}
 }

@@ -1,14 +1,22 @@
 #container{
     display: flex;
+    flex-direction: row;
 }
 
 .column{
+    display: flex;
+    flex-direction: column;
     color: blue;
     outline: auto;
-
-}
-
-div {
     height: 32px;
     width: 32px;
+}
+.node {
+    color: blue;
+    outline: auto;
+    height: 32px;
+    width: 32px; 
+}
+div {
+    
 }
