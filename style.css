@@ -1,0 +1,14 @@
+#container{
+    display: flex;
+}
+
+.column{
+    color: blue;
+    outline: auto;
+
+}
+
+div {
+    height: 32px;
+    width: 32px;
+}
