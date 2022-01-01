@@ -1,18 +1,26 @@
 #container{
-    display: grid;
+    display: flex;
+    flex-direction: column;
 }
 
 .column{
-    display: grid;
+    display: inline-block;
     color: blue;
     outline: 1px solid blue;
     height: 32px;
-    width: 32px;
+    width: auto;
+    max-width: 512px;
     padding: 1px;
 }
 .cell {
+    display: inline-block;
     color: blue;
     outline: 1px solid blue;
     height: 32px;
     width: 32px; 
+}
+.drawn{
+    display: inline-block;
+    color: black;
+    background-color: black;
 }
