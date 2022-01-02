@@ -38,6 +38,11 @@ function test(n, i) {
     makeCells(i);
 }
 //for mouseover event listener. switch bgcolor of cells 
-for (single of cells) {
-    cell.addEventListener("mouseover", draw => {cell.style.backgroundColor = black})
+let draw = function(){
+    cells[this].style.backgroundColor = 'black';
+}
+function prep() {
+    for(i = 0; i < cells.length; i++) {
+        cells[i].addEventListener('mouseover', function(){this.style.backgroundColor = 'black'})
+    }
 }

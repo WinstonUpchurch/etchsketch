@@ -8,8 +8,11 @@
     <link rel='stylesheet' href='style.css'>
 </head>
 <body>
-    <button type="button">Reset</button>
-    <button type="button" onclick="defaultGrid()">16x16</button>
+    <button type="button" onclick='defaultGrid(), prep()'>16x16</button>
+
+    <div class="buttons">
+        <button type="button">Reset</button>
+    </div>
     <script src="etch.js" defer>
     </script>
     <div id='container'>

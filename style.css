@@ -1,4 +1,4 @@
-#container{
+/* #container{
     display: flex;
     flex-direction: column;
     width: 960px;
@@ -34,4 +34,53 @@
 button {
     padding: 4px;
     margin-bottom: 12px;
+} */
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 928px;
+    height: 928px;
+    max-height: 928px;
+    max-width: 928px;
+    margin-left: 25%;
+    position: absolute;
+    
+}
+
+.column{
+    display: flex;
+    flex-direction: row;
+ 
+    height: 100%;
+    width: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+.cell {
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-right: 0;
+    border-top: 0;
+    height: 100%;
+    width: calc(100% / 16); 
+    background-color: unset;
+}
+.cell:hover {
+    background-color: black;
+}
+.drawn{
+    display: inline-block;
+    color: black;
+    background-color: black;
+}
+
+.buttons{
+    margin-right: 15%;
+}
+
+button {
+    padding: 4px;
+    margin-bottom: 12px;
+    float: right;
 }
