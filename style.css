@@ -45,7 +45,6 @@ button {
     max-width: 928px;
     margin-left: 25%;
     position: absolute;
-    
 }
 
 .column{
@@ -66,21 +65,13 @@ button {
     width: calc(100% / 16); 
     background-color: unset;
 }
-.cell:hover {
-    background-color: black;
-}
-.drawn{
-    display: inline-block;
-    color: black;
-    background-color: black;
-}
-
-.buttons{
-    margin-right: 15%;
-}
 
 button {
     padding: 4px;
-    margin-bottom: 12px;
+    margin: 4px;
+    float: left;
+}
+
+.crazy{
     float: right;
 }

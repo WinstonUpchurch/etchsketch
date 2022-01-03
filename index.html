@@ -8,11 +8,10 @@
     <link rel='stylesheet' href='style.css'>
 </head>
 <body>
+    <button type="button" onclick="crazy()" class="crazy">CrAzY mOdE</button>
     <button type="button" onclick='defaultGrid(), prep()'>16x16</button>
-
-    <div class="buttons">
-        <button type="button">Reset</button>
-    </div>
+    <button type="button" onclick="reset(container)">Reset</button>
+    <button type="button" onclick="customGrid()">Generate</button>
     <script src="etch.js" defer>
     </script>
     <div id='container'>
