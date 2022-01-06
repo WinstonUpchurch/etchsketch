@@ -1,40 +1,4 @@
-/* #container{
-    display: flex;
-    flex-direction: column;
-    width: 960px;
-    height: 960px;
-    max-height: 960px;
-    max-width: 960px;
-}
 
-.column{
-    display: flex;
-    flex-direction: row;
- 
-    height: 32px;
-    width: fit-content;
-    border-right: 1px solid black;
-    border-top: 1px solid black;
-}
-.cell {
-    display: inline-block;
-    border: 1px solid black;
-    border-right: 0;
-    border-top: 0;
-    height: 32px;
-    width: 32px; 
-    background-color: unset;
-}
-.drawn{
-    display: inline-block;
-    color: black;
-    background-color: black;
-}
-
-button {
-    padding: 4px;
-    margin-bottom: 12px;
-} */
 
 #container{
     display: flex;
